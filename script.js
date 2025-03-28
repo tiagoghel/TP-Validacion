@@ -73,6 +73,7 @@ const Regirtrarse = () =>
 {
     if(contraEsValido == true && nombreEsValido == true && sonIguales == true && Mailingreso == true){
         esValido = true
+        alert("se ha registrado correctamente")
     }
     else {
         esValido = false
